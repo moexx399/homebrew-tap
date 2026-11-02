@@ -2,24 +2,24 @@
 class SquareImpact < Formula
   desc "Instant high-speed replays from the Square Omni launch monitor's own cameras"
   homepage "https://github.com/moexx399/square_impact"
-  version "0.16.0"
+  version "0.16.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/moexx399/square_impact/releases/download/v0.16.0/square_impact-macos-arm64.zip"
-      sha256 "de58fd8fbf31cad71dcf8b2425ca26e039612be16f116b0b8b99098211ff9934"
+      url "https://github.com/moexx399/square_impact/releases/download/v0.16.1/square_impact-macos-arm64.zip"
+      sha256 "fc495dbbeaa26a4903626d2760879ca221fb2c5ed2b90bde32fd52b72e36c323"
     end
     on_intel do
-      url "https://github.com/moexx399/square_impact/releases/download/v0.16.0/square_impact-macos-x64.zip"
-      sha256 "847ca60189e934d07ea537c14dfe707e9b1286aad2473b7c3f5cc4210b1a787e"
+      url "https://github.com/moexx399/square_impact/releases/download/v0.16.1/square_impact-macos-x64.zip"
+      sha256 "a855be160405a4892bb84fceed99b2e5b8f57ca813193a020d11f2ff99966200"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/moexx399/square_impact/releases/download/v0.16.0/square_impact-linux-x64.zip"
-      sha256 "fbe6cc8539b142914cfd1ca72b4b92617092e555dd623e91a57fd9c2c5febe30"
+      url "https://github.com/moexx399/square_impact/releases/download/v0.16.1/square_impact-linux-x64.zip"
+      sha256 "4da70533443f8cce959921520b77773129e7367bf3f92f35a70e76378cb6bfaf"
     end
   end
 
